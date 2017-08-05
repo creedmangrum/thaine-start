@@ -1,0 +1,16 @@
+{
+    "people": {
+        "1": {
+            "name": "Thaine",
+            "skills": ["Assays", "Genetics"]
+        },
+        "2": {
+            "name": "Creed",
+            "skills": ["Coding"]
+        },
+        "3": {
+            "name": "Sidney",
+            "skills": ["PA", "Smash ball"]
+        }
+    }
+}
