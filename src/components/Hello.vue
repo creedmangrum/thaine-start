@@ -36,13 +36,6 @@
 import {people} from '../db/people.json'
 import {skills} from '../utils/utils'
 
-import fs from 'fs'
-
-const peopleJson = JSON.parse(people)
-peopleJson["4"] = {name: "maya", skills: ["swimming", "cello"]}
-
-fs.writeFile("results.json", JSON.stringify(peopleJson))
-
 export default {
   name: 'hello',
   data () {
